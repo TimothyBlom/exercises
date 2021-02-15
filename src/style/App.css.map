@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,oBAAoB,CAAC;EACjB,KAAK,EAAE,KAAK;EACZ,YAAY,EAAE,IAAI;EAClB,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,0BAA0B;EAC5C,aAAa,EAAE,IAAI;EACnB,MAAM,EAAE,KAAK;CAChB;;ADLD,AAAA,IAAI,CAAC;EACH,gBAAgB,EAAE,OAAe;EACjC,cAAc,EAAE,KAAK;EACrB,KAAK,EAAE,KAAK;CACb;;AAED,AAAA,eAAe,CAAC;EACd,KAAK,EAAE,KAAK;EACZ,WAAW,EAAE,MAAM;EACnB,MAAM,EAAE,IAAI;CACb",
+    "sources": [
+        "App.scss",
+        "_countdown.scss"
+    ],
+    "names": [],
+    "file": "App.css"
+}

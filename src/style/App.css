@@ -1,0 +1,21 @@
+.datePickerContainer {
+  width: 200px;
+  padding-left: 28px;
+  height: 100px;
+  background-color: rgba(124, 124, 124, 0.356);
+  border-radius: 20px;
+  margin: 100px;
+}
+
+.App {
+  background-color: #353535;
+  padding-bottom: 100px;
+  color: white;
+}
+
+.routingButtons {
+  color: white;
+  font-weight: bolder;
+  margin: 50px;
+}
+/*# sourceMappingURL=App.css.map */
