@@ -3,9 +3,9 @@ import { Link } from "react-browser-router";
 
 const Header = () => {
     return (
-        <div id='header'>
+        <div className='header'>
 
-            <Link className='routingButtons' to='/'>Home</Link>
+            <Link className='routingButtons homeButton' to='/'>Home</Link>
 
             <Link className='routingButtons' to='/Countdown'>Countdown</Link>
 

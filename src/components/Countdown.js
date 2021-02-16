@@ -4,11 +4,15 @@ import "react-datepicker/dist/react-datepicker.css"
 
 const Countdown = () => {
     const [selectedDate, setSelectedDate] = useState(null);
+    
+    const calculateTimeLeft = () => {
+        let year = new Date().getFullYear();
+    }
 
     return (
         <div class='countdown'>
 
-            <p>Countdown Timer</p>
+            <p className="pageHeaderText">Countdown Timer</p>
 
             <div className="datePickerContainer">
                 <p>Date Picker Component</p>

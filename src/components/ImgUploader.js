@@ -4,7 +4,7 @@ const imgUploader = () => {
     return (
         <div id='imgUploader'>
 
-            <p>Image Uploader</p>
+            <p className="pageHeaderText">Image Uploader</p>
                                
         </div>
     )

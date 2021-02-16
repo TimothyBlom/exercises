@@ -1,9 +1,5 @@
 import './style/App.scss';
-import { 
-  BrowserRouter, 
-  Route, 
-  Link
-} from "react-browser-router";
+import { BrowserRouter, Route } from "react-browser-router";
 import Header from "./components/Header";
 import Home from "./components/Home";
 import Countdown from "./components/Countdown";
