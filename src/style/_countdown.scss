@@ -4,6 +4,45 @@
     height: 100px;
     background-color: rgba(124, 124, 124, 0.356);
     border-radius: 20px;
+    margin-bottom: 250px;
     margin-left: 50%;
     transform: translate(-50%);
+}
+
+.timerContainer {
+    width: 760px;
+    border: white solid 1px;
+    border-radius: 10px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 50%;
+    transform: translate(-50%);
+
+}
+
+.timerDescription {
+    text-align: center;
+}
+
+.time {
+    margin: 10px;
+    width: 170px;
+    text-align: center;
+    float: left;
+}
+
+.timeNumber {
+    font-size: 100px;
+    margin: 0;
+}
+
+.timename {
+    font-size: 30px;
+    margin: 0;
+}
+
+.timeDots {
+    position: absolute;
+    font-size: 100px;
+    margin: -185px 0 0 170px;
 }
