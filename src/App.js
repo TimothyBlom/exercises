@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Countdown from "./components/Countdown";
 import ImgUploader from "./components/ImgUploader";
 import ToDoList from "./components/ToDoList";
+import ApiList from "./components/ApiList";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route exact path='/Countdown' component={Countdown}/>
         <Route exact path='/ImgUploader' component={ImgUploader}/>
         <Route exact path='/ToDoList' component={ToDoList}/>
+        <Route exact path='/ApiList' component={ApiList}/>
       </BrowserRouter>
 
     </div>

@@ -4,7 +4,7 @@ const toDoList = () => {
     return (
         <div id='toDoList'>
 
-            <p className="pageHeaderText">To Do List</p>
+            <p className="pageHeaderText">To Do List (COMING SOON)</p>
                                
         </div>
     )

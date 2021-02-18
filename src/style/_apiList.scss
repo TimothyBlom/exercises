@@ -1,0 +1,35 @@
+.apiListContainer {
+    border: solid 1px white;
+    border-radius: 20px;
+    min-width: 600px;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 100px;
+    height: 750px;
+}
+
+.apiListTitle {
+    font-size: x-large;
+    font-weight: bolder;
+    margin-left: 30px;
+}
+
+.apiItem {
+    background-color: rgba(117, 117, 117, 0.158);
+    width: 450px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 30px;
+    margin: 20px;
+    float: left;
+}
+
+.apiLogo {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+}
+
+.apiName {
+    font-size: large;
+}

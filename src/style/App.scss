@@ -1,9 +1,11 @@
 @import "./countdown";
+@import "./apiList";
 
 .App {
   background-color: rgb(53, 53, 53);
   padding-bottom: 100px;
   color: white;
+  height: 100%;
 }
 
 .pageHeaderText {
