@@ -3,7 +3,18 @@ import axios from "axios"
 
 const ApiList = () => {
     const [games, setGames] = useState([]);
-    const [starWars, setStarWars] = useState([]);
+    const [songs, setSongs] = useState({ entry: [] });
+
+    useEffect(() => {
+      const fetchSongs = async () => {
+        const response = await axios.get('https://itunes.apple.com/us/rss/topalbums/limit=100/json')
+          setSongs(response.data.feed);
+          console.log(response.data.feed);
+      };
+  
+      fetchSongs();
+  
+    }, [] );
 
     useEffect(() => {
       const fetchGames = async () => {
@@ -15,17 +26,6 @@ const ApiList = () => {
       fetchGames();
   
     }, [] );
-
-    useEffect(() => {
-        const fetchStarWars = async () => {
-          const res = await axios.get("https://swapi.dev/api/")
-            setStarWars(res.data);
-            console.log(res.data);
-        };
-    
-        fetchStarWars();
-    
-      }, [] );
 
     return (
         <div id='apiList'>
@@ -59,13 +59,11 @@ const ApiList = () => {
 
                 <p className="apiListTitle">List of names from the online Star Wars API "SWAPI" (COMING SOON)</p>
 
-                {/* {starWars.map(item => (
-
-                <div className="apiItem">
-                    <p className="apiName">{item.people.name}</p>
-                </div>
-
-                ))} */}
+                {songs.entry.map(item => (
+                    <div className="apiItem">
+                        <p className='apiName' key={item.id.label}> {item.title.label} </p>
+                    </div>
+                ))}
             </div>
                                
         </div>
