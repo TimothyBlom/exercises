@@ -118,4 +118,8 @@
   font-size: x-large;
   margin-left: 100px;
 }
+
+#invisableTime {
+  visibility: hidden;
+}
 /*# sourceMappingURL=App.css.map */

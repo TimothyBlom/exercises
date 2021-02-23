@@ -42,9 +42,7 @@ const ApiList = () => {
 
                 <p className="apiListTitle">List of games from local saved Json file</p>
 
-                {games.filter(  item => item.name.includes("Ratchet ") ||
-                                item.name.includes("Clank")
-                                ).map(item => (
+                {games.slice(0, 15).map(item => (
 
                     <div className="apiItem">
                         <img className='apiLogo' alt='' src={item.logo} />
@@ -57,9 +55,9 @@ const ApiList = () => {
 {/* Online API */}
             <div className="apiListContainer">
 
-                <p className="apiListTitle">List of names from the online Star Wars API "SWAPI" (COMING SOON)</p>
+                <p className="apiListTitle">List of top 100 songs of itunes (first 15)</p>
 
-                {songs.entry.map(item => (
+                {songs.entry.slice(0, 15).map(item => (
                     <div className="apiItem">
                         <p className='apiName' key={item.id.label}> {item.title.label} </p>
                     </div>
