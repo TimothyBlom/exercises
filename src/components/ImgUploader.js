@@ -1,4 +1,5 @@
 import React, {useState, useRef} from 'react';
+import addBtn from "../images/addButton.png"
 
 const ImgUploader = () => {
     const [image, setImage] = useState({imagePreview: ''});
@@ -10,10 +11,10 @@ const ImgUploader = () => {
             imagePreview: URL.createObjectURL(event.target.files[0])
         })
         setName({
-            namePreview: "Naam afbeelding:" + event.target.files[0].name
+            namePreview: "Image Name: " + event.target.files[0].name
         })
         setTime({
-            timeHourPreview: new Date().getHours(),
+            timeHourPreview: "Upload Time: " + new Date().getHours() + ":",
             timeMinutePreview: new Date().getMinutes()
         })
     }
@@ -29,19 +30,16 @@ const ImgUploader = () => {
 
             <input className='chooseFile' useRef='fileInput' type="file" onChange={handleChange}/>
 
-            <br />
-
             <label>
                 <div className='uploadPreviewContainer'>
 
                     <img className='uploaderImage' src={image.imagePreview} alt='' />
-                    <h3 className='uploaderName'>{name.namePreview}</h3>
+                    <p className='uploaderName'>{name.namePreview}</p>
                     {/* button to empty imageReview array to delete the img */}
 
                     <div className='uploaderTime' id={invisableTime}>
-                        <h3 className='uploaderHour'>{hourDubbleDigits + time.timeHourPreview}</h3>
-                        <h3>:</h3>
-                        <h3 className='uploaderMinute'>{secDubbleDigits + time.timeMinutePreview}</h3>
+                        <p className='uploaderHour'>{hourDubbleDigits + time.timeHourPreview}</p>
+                        <p className='uploaderMinute'>{secDubbleDigits + time.timeMinutePreview}</p>
                     </div>
 
                 </div>

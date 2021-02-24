@@ -1,0 +1,40 @@
+.chooseFile {
+    margin-bottom: 25px;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.uploadPreviewContainer {
+    border: solid 1px white;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 20px;
+    padding: 25px;
+    height: 700px;
+}
+
+.uploaderImage {
+    max-height: 500px;
+    max-width: 100%;
+    margin-left: 50%;
+    transform: translate(-50%);
+}
+
+.uploaderName {
+    margin-left: 200px;
+}
+
+.uploaderTime {
+    border: 1px solid lightblue;
+    height: 60px;
+    width: 160px;
+}
+
+.uploaderHour {
+    float: left; 
+    margin-left: 10px;
+}
+
+.uploaderMinute {
+    float: left;
+}
