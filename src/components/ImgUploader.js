@@ -28,16 +28,18 @@ const ImgUploader = () => {
 
             <p className="pageHeaderText">Image Uploader</p>
 
-            <input className='chooseFile' useRef='fileInput' type="file" onChange={handleChange}/>
+            <input className='addImgBtn' useRef='fileInput' type="file" onChange={handleChange}/>
 
             <label>
                 <div className='uploadPreviewContainer'>
 
-                    <img className='uploaderImage' src={image.imagePreview} alt='' />
-                    <p className='uploaderName'>{name.namePreview}</p>
+                    <div className='uploaderImageContainer'>
+                        <img className='uploaderImage' src={image.imagePreview} alt='' />
+                    </div>
+                    <p className='uploaderName textContainer' id={invisableTime} >{name.namePreview}</p>
                     {/* button to empty imageReview array to delete the img */}
 
-                    <div className='uploaderTime' id={invisableTime}>
+                    <div className='uploaderTime textContainer' id={invisableTime}>
                         <p className='uploaderHour'>{hourDubbleDigits + time.timeHourPreview}</p>
                         <p className='uploaderMinute'>{secDubbleDigits + time.timeMinutePreview}</p>
                     </div>

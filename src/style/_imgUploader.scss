@@ -1,4 +1,5 @@
-.chooseFile {
+.addImgBtn {
+    margin-top: 100px;
     margin-bottom: 25px;
     margin-left: 50%;
     transform: translate(-50%);
@@ -9,8 +10,14 @@
     width: 80%;
     margin-left: 10%;
     border-radius: 20px;
-    padding: 25px;
-    height: 700px;
+    padding: 75px 25px;
+    height: 650px;
+    font-size: 30px;
+}
+
+.uploaderImageContainer {
+    height: 500px;
+    margin-bottom: 115px;
 }
 
 .uploaderImage {
@@ -20,21 +27,29 @@
     transform: translate(-50%);
 }
 
+.textContainer {
+    border: 1px solid lightblue;
+    height: 50px;
+    width: auto;
+    position: absolute;
+    padding: 10px 20px;
+}
+
 .uploaderName {
-    margin-left: 200px;
+    margin-left: 350px;
+    margin-top: 0px;
 }
 
 .uploaderTime {
-    border: 1px solid lightblue;
-    height: 60px;
-    width: 160px;
+
 }
 
 .uploaderHour {
     float: left; 
-    margin-left: 10px;
+    margin-top: 0px;
 }
 
 .uploaderMinute {
     float: left;
-}
+    margin-top: 0px;
+} 
