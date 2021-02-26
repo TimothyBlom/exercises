@@ -8,6 +8,7 @@
   margin-left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
+  z-index: 1;
 }
 
 .timerContainer {
@@ -82,6 +83,112 @@
 
 .apiName {
   font-size: large;
+}
+
+.addImgBtn {
+  margin-top: 100px;
+  margin-bottom: 25px;
+  margin-left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.uploadPreviewContainer {
+  border: solid 1px white;
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 20px;
+  padding: 75px 25px;
+  height: 650px;
+  font-size: 30px;
+}
+
+.uploaderImageContainer {
+  height: 500px;
+  margin-bottom: 115px;
+}
+
+.uploaderImage {
+  max-height: 500px;
+  max-width: 100%;
+  margin-left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.textContainer {
+  border: 1px solid lightblue;
+  height: 50px;
+  width: auto;
+  position: absolute;
+  padding: 10px 20px;
+}
+
+.uploaderName {
+  margin-left: 350px;
+  margin-top: 0px;
+  max-width: 950px;
+}
+
+.uploaderHour {
+  float: left;
+  margin-top: 0px;
+}
+
+.uploaderMinute {
+  float: left;
+  margin-top: 0px;
+}
+
+.datePickerContainer {
+  width: 200px;
+  padding-left: 28px;
+  height: 100px;
+  background-color: rgba(124, 124, 124, 0.356);
+  border-radius: 20px;
+  margin-bottom: 250px;
+  margin-left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  z-index: 1;
+}
+
+.timerContainer {
+  width: 760px;
+  border: white solid 1px;
+  border-radius: 10px;
+  height: 300px;
+  margin-top: 100px;
+  margin-left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.timerDescription {
+  text-align: center;
+}
+
+.time {
+  margin: 10px;
+  width: 170px;
+  text-align: center;
+  float: left;
+}
+
+.timeNumber {
+  font-size: 100px;
+  margin: 0;
+}
+
+.timename {
+  font-size: 30px;
+  margin: 0;
+}
+
+.timeDots {
+  position: absolute;
+  font-size: 100px;
+  margin: -185px 0 0 170px;
 }
 
 .App {
