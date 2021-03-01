@@ -5,7 +5,7 @@ const Home = () => {
         <div id='header'>
 
             <p className="pageHeaderText"> 
-                Home 
+                Coding exercises
             </p>
                                
         </div>

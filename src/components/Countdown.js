@@ -10,8 +10,7 @@ const Countdown = () => {
         <div class='countdown'>
 
             <p className="pageHeaderText">
-                For this exercise I made an countdown timer for a specific date (very important dates!). 
-                I also imported the Date Picker component
+                Countdown timers to specific dates, and an date picker without a function.
             </p>
 
             <div className="datePickerContainer">

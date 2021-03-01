@@ -14,6 +14,8 @@ const Header = () => {
             <Link className='routingButtons' to='/ToDoList'>To Do List</Link>
 
             <Link className='routingButtons' to='/ApiList'>API Lists</Link>
+
+            <Link className='routingButtons' to='/SliderList'>Slider lists</Link>
                                
         </div>
     )

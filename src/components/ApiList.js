@@ -31,16 +31,13 @@ const ApiList = () => {
         <div id='apiList'>
 
             <p className="pageHeaderText">
-                Lists from API's. The list displayes items from the localy saved JSON file.
-                The css is not finished, the items get outside the border when in rows of 2. 
-                <br />
-                I am planning to display JSON items from an online API later.
+                Lists from an online API and an local JSON
             </p>
 
 {/* Local API */}
             <div className="apiListContainer">
 
-                <p className="apiListTitle">List of games from local saved Json file</p>
+                <p className="apiListTitle">List of games from local saved Json file (first 15)</p>
 
                 {games.slice(0, 15).map(item => (
 
@@ -55,7 +52,7 @@ const ApiList = () => {
 {/* Online API */}
             <div className="apiListContainer">
 
-                <p className="apiListTitle">List of top 100 songs of itunes (first 15)</p>
+                <p className="apiListTitle">List of the top 100 songs of itunes API (first 15)</p>
 
                 {songs.entry.slice(0, 15).map(item => (
                     <div className="apiItem">
