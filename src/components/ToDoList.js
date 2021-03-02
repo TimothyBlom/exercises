@@ -1,16 +1,36 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
+import axios from "axios"
+import Task from "./ToDoTask"
 
-const toDoList = () => {
+const ToDoList = () => {
+    const [games, setGames] = useState([]);
+
+    useEffect(() => {
+        const fetchGames = async () => {
+          const res = await axios.get("./ToDoList.json")
+            setGames(res.data);
+            console.log(res.data);
+        };
+    
+        fetchGames();
+    
+      }, [] );
+
     return (
         <div id='toDoList'>
 
-            <p className="pageHeaderText">To Do List (COMING SOON)</p>
+            <p className="pageHeaderText">To Do List using a local API</p>
 
             <div className="tasksContainer">
 
-                <div className="task">
-                    <p>Task 1</p>
-                </div>
+                {games.map(item => (
+
+                    <Task 
+                    completed={item.completed}
+                    taskText={item.taskText}
+                    />
+
+                ))}
         
             </div>
                                
@@ -18,4 +38,4 @@ const toDoList = () => {
     )
 };
 
-export default toDoList;
+export default ToDoList;

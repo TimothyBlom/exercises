@@ -10,3 +10,13 @@
     background-color: rgb(99, 99, 99);
     margin: 20px;
 }
+
+.taskBtn {
+    width: 150px;
+    background-color: red;
+    cursor: pointer;
+}
+
+#taskCompleted {
+    background-color: green;
+}
