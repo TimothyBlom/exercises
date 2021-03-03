@@ -9,9 +9,14 @@ const Task = (props) => {
       }
 
     return (
-        <div className="apiItem">
-            <p className="apiName">{props.taskText}</p>
+        <div className="taskItem">
+            {/* <img className="taskbarSideL" src={sliderImg1} /> */}
+
+            <img className="taskPlatform" src={sliderImg1} />
+            <p className="taskName">{props.taskText}</p>
             <img className="taskBtn" src={sliderImg1} id={taskIsChecked ? "taskCompleted" : ""} onClick={taskComplete}/>
+
+            {/* <img className="taskbarSideR" src={sliderImg1} /> */}
         </div>
     )
 };
