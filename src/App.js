@@ -7,6 +7,7 @@ import ImgUploader from "./components/ImgUploader";
 import ToDoList from "./components/ToDoList";
 import ApiList from "./components/ApiList";
 import SliderList from "./components/SliderList";
+import Codex from "./components/Codex";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route exact path='/ToDoList' component={ToDoList}/>
         <Route exact path='/ApiList' component={ApiList}/>
         <Route exact path='/SliderList' component={SliderList}/>
+        <Route exact path='/Codex' component={Codex}/>
       </BrowserRouter>
 
     </div>

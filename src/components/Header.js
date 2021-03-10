@@ -16,6 +16,8 @@ const Header = () => {
             <Link className='routingButtons' to='/ApiList'>API Lists</Link>
 
             <Link className='routingButtons' to='/SliderList'>Slider lists</Link>
+
+            <Link className='routingButtons' to='/Codex'>Lore Codex</Link>
                                
         </div>
     )
