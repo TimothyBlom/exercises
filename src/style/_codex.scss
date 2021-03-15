@@ -6,10 +6,7 @@
 }
 
 .codexNav {
-    width: 120px;
-    margin: 50px;
-    background-color: darkblue;
-    position: absolute;
+    width: 90%;
 }
 
 .codexSubNav {
@@ -21,12 +18,29 @@
 
 .textContainer {
     width: 90%;
+    margin-left: 5%;
     background-color: rgba(255, 0, 0, 0.219);
 }
 
 .codexTopImg {
     width: 50%;
     background-color: white;
-    float: right;
     margin: 50px;
+    float: center;
+}
+
+.codexFacts {
+    width: 40%;
+    max-width: 400px;
+    height: 500px;
+    margin: 50px;
+    background-color: white;
+    float: left;
+}
+
+.codexText {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 100px;
+    background-color: rgb(58, 58, 58);
 }

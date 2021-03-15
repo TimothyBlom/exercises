@@ -13,6 +13,16 @@ const Countdown = () => {
                 Countdown timers to specific dates, and an date picker without a function.
             </p>
 
+            <CountdownComponent 
+                timerDate={"June 11, 2021"}
+                timerDescription={"The release date for the video game Ratchet & Clank Rift Apart"}
+            />
+
+            <CountdownComponent 
+                timerDate={"May 14, 2021"}
+                timerDescription={"The release date for the video game Mass Effect Legendary Edition"}
+            />
+
             <div className="datePickerContainer">
                 <p>Date Picker Component</p>
                 <DatePicker 
@@ -25,16 +35,6 @@ const Countdown = () => {
                     isClearable
                 />
             </div>
-
-            <CountdownComponent 
-                timerDate={"June 11, 2021"}
-                timerDescription={"The release date for the video game Ratchet & Clank Rift Apart"}
-            />
-
-            <CountdownComponent 
-                timerDate={"May 14, 2021"}
-                timerDescription={"The release date for the video game Mass Effect Legendary Edition"}
-            />
 
         </div>
     )
