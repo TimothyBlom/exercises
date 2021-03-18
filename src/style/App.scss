@@ -4,17 +4,15 @@
 @import "./toDo";
 @import "./sliderList";
 @import "./codex";
+@import "./variables";
 
 .App {
   background-image: linear-gradient(to right, rgb(51, 51, 51), rgb(61, 61, 61));
   padding-bottom: 100px;
-  color: white;
-  height: 100%;
+  color: rgb(255, 255, 255);
 }
 
 .pageHeaderText {
-  background-color: rgba(20, 20, 20, 0.062);
-  box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
   text-align: center;
   width: 60%;
   margin: 100px 20%;
@@ -23,10 +21,11 @@
   padding: 15px;
   font-size: 30px;
   font-weight: bolder;
+  @include popDiv;
 }
 
 .header {
-  background-color: rgb(34, 34, 34);
+  background-color: rgb(28, 41, 87);
   padding: 10px;
 }
 

@@ -6,17 +6,16 @@
   padding-top: 1px;
   padding-bottom: 10px;
   margin-bottom: 250px;
+  margin-top: 100px;
   margin-left: 50%;
   -webkit-transform: translate(-50%);
           transform: translate(-50%);
-  z-index: 1;
   -webkit-box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
           box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
 }
 
 .timerContainer {
   width: 760px;
-  border: white solid 1px;
   border-radius: 10px;
   height: 300px;
   margin-top: 100px;
@@ -25,6 +24,7 @@
           transform: translate(-50%);
   -webkit-box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
           box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
+  background-color: rgba(16, 57, 192, 0.144);
 }
 
 .timerDescription {
@@ -294,7 +294,7 @@
   width: 90%;
   margin-left: 5%;
   margin-top: 100px;
-  background-color: #3a3a3a;
+  background-color: white;
 }
 
 .App {
@@ -302,13 +302,9 @@
   background-image: linear-gradient(to right, #333333, #3d3d3d);
   padding-bottom: 100px;
   color: white;
-  height: 100%;
 }
 
 .pageHeaderText {
-  background-color: rgba(20, 20, 20, 0.062);
-  -webkit-box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
-          box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
   text-align: center;
   width: 60%;
   margin: 100px 20%;
@@ -317,10 +313,13 @@
   padding: 15px;
   font-size: 30px;
   font-weight: bolder;
+  -webkit-box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
+          box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
+  background-color: rgba(16, 57, 192, 0.144);
 }
 
 .header {
-  background-color: #222222;
+  background-color: #1c2957;
   padding: 10px;
 }
 

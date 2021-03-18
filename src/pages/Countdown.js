@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import DatePicker from "react-datepicker"
 import "react-datepicker/dist/react-datepicker.css"
-import CountdownComponent from "./CountdownComponent";
+import CountdownComponent from "../components/CountdownComponent";
 
 const Countdown = () => {
     const [selectedDate, setSelectedDate] = useState(null);

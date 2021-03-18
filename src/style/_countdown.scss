@@ -1,3 +1,5 @@
+@import "./variables";
+
 .datePickerContainer {
     width: 200px;
     padding-left: 28px;
@@ -9,19 +11,17 @@
     margin-top: 100px;
     margin-left: 50%;
     transform: translate(-50%);
-    z-index: 1;
-    box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
+    @include popDiv;
 }
 
 .timerContainer {
     width: 760px;
-    border: white solid 1px;
     border-radius: 10px;
     height: 300px;
     margin-top: 100px;
     margin-left: 50%;
     transform: translate(-50%);
-    box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
+    @include popDiv;
 }
 
 .timerDescription {

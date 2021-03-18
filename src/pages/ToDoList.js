@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import axios from "axios"
-import Task from "./ToDoTask"
+import Task from "../components/ToDoTask"
 
 const ToDoList = () => {
     const [games, setGames] = useState([]);

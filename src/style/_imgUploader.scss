@@ -1,3 +1,5 @@
+@import "./variables";
+
 .addImgBtn {
     margin-top: 100px;
     margin-bottom: 25px;
@@ -6,7 +8,7 @@
 }
 
 .uploadPreviewContainer {
-    border: solid 1px white;
+    @include popDiv;
     width: 80%;
     margin-left: 10%;
     border-radius: 20px;
@@ -28,21 +30,20 @@
 }
 
 .textContainer {
-    border: 1px solid lightblue;
     height: 50px;
-    width: auto;
     position: absolute;
     padding: 10px 20px;
+    @include popDiv;
 }
 
 .uploaderName {
-    margin-left: 350px;
+    left: 550px;
     margin-top: 0px;
     max-width: 950px;
 }
 
 .uploaderTime {
-
+    width: 500px;
 }
 
 .uploaderHour {

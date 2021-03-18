@@ -36,6 +36,7 @@ const ImgUploader = () => {
                     <div className='uploaderImageContainer'>
                         <img className='uploaderImage' src={image.imagePreview} alt='' />
                     </div>
+
                     <p className='uploaderName textContainer' id={invisableTime} >{name.namePreview}</p>
                     {/* button to empty imageReview array to delete the img */}
 

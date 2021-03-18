@@ -1,13 +1,13 @@
 import './style/App.scss';
 import { BrowserRouter, Route } from "react-browser-router";
 import Header from "./components/Header";
-import Home from "./components/Home";
-import Countdown from "./components/Countdown";
-import ImgUploader from "./components/ImgUploader";
-import ToDoList from "./components/ToDoList";
-import ApiList from "./components/ApiList";
-import SliderList from "./components/SliderList";
-import Codex from "./components/Codex";
+import Home from "./pages/Home";
+import Countdown from "./pages/Countdown";
+import ImgUploader from "./pages/ImgUploader";
+import ToDoList from "./pages/ToDoList";
+import ApiList from "./pages/ApiList";
+import SliderList from "./pages/SliderList";
+import Codex from "./pages/Codex";
 
 function App() {
   return (
