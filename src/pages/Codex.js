@@ -26,7 +26,7 @@ const Codex = () => {
           >
 
             <SwiperSlide className="codexNavItem">
-              <p>slider 1</p>
+              <p>Characters</p>
             </SwiperSlide>
 
             <SwiperSlide className="codexNavItem">
