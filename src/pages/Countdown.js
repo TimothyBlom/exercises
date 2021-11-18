@@ -14,12 +14,12 @@ const Countdown = () => {
             </p>
 
             <CountdownComponent 
-                timerDate={"June 11, 2021"}
+                timerDate={"June 11, 2022"}
                 timerDescription={"The release date for the video game Ratchet & Clank Rift Apart"}
             />
 
             <CountdownComponent 
-                timerDate={"May 14, 2021"}
+                timerDate={"May 14, 2022"}
                 timerDescription={"The release date for the video game Mass Effect Legendary Edition"}
             />
 

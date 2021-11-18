@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from "react-browser-router";
+import headerLogo from "../images/3DLogo.png"
 
 const Header = () => {
     return (
         <div className='header'>
 
-            <Link className='routingButtons homeButton' to='/'>Home</Link>
+            <Link className='routingButtons homeButton' to='/'>            
+                <img className="headerLogo" src={headerLogo} />
+            </Link>
 
             <Link className='routingButtons' to='/Countdown'>Countdown</Link>
 

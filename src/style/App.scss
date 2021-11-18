@@ -7,8 +7,8 @@
 @import "./variables";
 
 .App {
-  background-image: linear-gradient(to right, rgb(51, 51, 51), rgb(61, 61, 61));
-  padding-bottom: 100px;
+  background-image: linear-gradient(to right, rgb(110, 110, 110), rgb(61, 61, 61));
+  padding-bottom: 200px;
   color: rgb(255, 255, 255);
 }
 
@@ -27,6 +27,15 @@
 .header {
   background-color: rgb(28, 41, 87);
   padding: 10px;
+}
+
+.headerLogo {
+  height: 75px;
+  float: left;
+  margin: 0 -120px 0 -30px;
+  padding: 0 20px 0 30px;
+  background-color: rgb(28, 41, 87);
+  border-radius: 20px;
 }
 
 .routingButtons {

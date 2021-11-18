@@ -33,8 +33,8 @@ const ToDoList = () => {
 
             <div className="tasksContainer">
 
-                <p onClick={postToDoApi}>Post date</p>
-                <p onClick={gamesStatus}>API Console Log</p>
+              <p className="postButton" onClick={postToDoApi}>Post date</p>
+              <p className="postButton" onClick={gamesStatus}>Console Log API Array</p>
 
                 {games.map(item => (
 
