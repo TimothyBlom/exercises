@@ -13,17 +13,19 @@
     margin-left: 10%;
     border-radius: 20px;
     padding: 75px 25px;
-    height: 650px;
+    height: 575px;
     font-size: 30px;
+    margin-left: 50%;
+    transform: translate(-50%);
 }
 
 .uploaderImageContainer {
-    height: 500px;
+    height: 400px;
     margin-bottom: 115px;
 }
 
 .uploaderImage {
-    max-height: 500px;
+    max-height: 400px;
     max-width: 100%;
     margin-left: 50%;
     transform: translate(-50%);
@@ -34,6 +36,11 @@
     position: absolute;
     padding: 10px 20px;
     @include popDiv;
+}
+
+.uploaderText {
+    width: 90%;
+    margin-left: 5%;
 }
 
 .uploaderName {

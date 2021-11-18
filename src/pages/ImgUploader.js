@@ -37,10 +37,11 @@ const ImgUploader = () => {
                         <img className='uploaderImage' src={image.imagePreview} alt='' />
                     </div>
 
-                    <p className='uploaderName textContainer' id={invisableTime} >{name.namePreview}</p>
-                    {/* button to empty imageReview array to delete the img */}
+                    <p className='uploaderName' id={invisableTime} >{name.namePreview}</p>
 
-                    <div className='uploaderTime textContainer' id={invisableTime}>
+                    {/* add button here to empty imageReview array and delete the img */}
+
+                    <div className='uploaderTime' id={invisableTime}>
                         <p className='uploaderHour'>{hourDubbleDigits + time.timeHourPreview}</p>
                         <p className='uploaderMinute'>{secDubbleDigits + time.timeMinutePreview}</p>
                     </div>

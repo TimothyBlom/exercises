@@ -12,6 +12,7 @@
           transform: translate(-50%);
   -webkit-box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
           box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
+  background-color: rgba(9, 37, 128, 0.459);
 }
 
 .timerContainer {
@@ -24,7 +25,7 @@
           transform: translate(-50%);
   -webkit-box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
           box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
-  background-color: rgba(16, 57, 192, 0.144);
+  background-color: rgba(9, 37, 128, 0.459);
 }
 
 .timerDescription {
@@ -99,22 +100,27 @@
 }
 
 .uploadPreviewContainer {
-  border: solid 1px white;
+  -webkit-box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
+          box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
+  background-color: rgba(9, 37, 128, 0.459);
   width: 80%;
   margin-left: 10%;
   border-radius: 20px;
   padding: 75px 25px;
-  height: 650px;
+  height: 550px;
   font-size: 30px;
+  margin-left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 .uploaderImageContainer {
-  height: 500px;
+  height: 400px;
   margin-bottom: 115px;
 }
 
 .uploaderImage {
-  max-height: 500px;
+  max-height: 400px;
   max-width: 100%;
   margin-left: 50%;
   -webkit-transform: translate(-50%);
@@ -122,17 +128,27 @@
 }
 
 .textContainer {
-  border: 1px solid lightblue;
   height: 50px;
-  width: auto;
   position: absolute;
   padding: 10px 20px;
+  -webkit-box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
+          box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
+  background-color: rgba(9, 37, 128, 0.459);
+}
+
+.uploaderText {
+  width: 90%;
+  margin-left: 5%;
 }
 
 .uploaderName {
-  margin-left: 350px;
+  left: 550px;
   margin-top: 0px;
   max-width: 950px;
+}
+
+.uploaderTime {
+  width: 500px;
 }
 
 .uploaderHour {
@@ -271,7 +287,6 @@
 .textContainer {
   width: 90%;
   margin-left: 5%;
-  background-color: rgba(255, 0, 0, 0.219);
 }
 
 .codexTopImg {
@@ -315,7 +330,7 @@
   font-weight: bolder;
   -webkit-box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
           box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
-  background-color: rgba(16, 57, 192, 0.144);
+  background-color: rgba(9, 37, 128, 0.459);
 }
 
 .header {
