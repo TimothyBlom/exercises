@@ -1,10 +1,11 @@
 .apiListContainer {
-    border: solid 1px white;
+    @include popDiv;
     border-radius: 20px;
     min-width: 600px;
     width: 80%;
     margin-left: 10%;
     margin-bottom: 100px;
+    padding: 20px;
     height: 750px;
 }
 

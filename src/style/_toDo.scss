@@ -69,7 +69,6 @@
 
 .taskBtn {
     height: 60px;
-    background-color: red;
     cursor: pointer;
     align-items: right;
     margin-top: 8px;
@@ -80,5 +79,6 @@
 }
 
 #taskCompleted {
-    background-color: green;
+    background-image: url("../images/checked.png");
+    background-size: 100px;
 }

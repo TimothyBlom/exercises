@@ -169,9 +169,13 @@
   background-color: #9c0000;
   width: 200px;
   padding: 5px 0;
+  margin: -50px 0 50px 75px;
+  float: left;
   text-align: center;
   border-radius: 10px;
   cursor: pointer;
+  -webkit-box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
+          box-shadow: 3px 4px 6px 5px rgba(0, 0, 0, 0.349);
 }
 
 .postButton:active {
@@ -355,7 +359,7 @@
 }
 
 .header {
-  background-color: #1c2957;
+  background-color: #10133a;
   padding: 10px;
 }
 
@@ -364,7 +368,7 @@
   float: left;
   margin: 0 -120px 0 -30px;
   padding: 0 20px 0 30px;
-  background-color: #1c2957;
+  background-color: #10133a;
   border-radius: 20px;
 }
 

@@ -2,26 +2,36 @@
     {
         "taskText": "Ratchet & Clank",
         "id": "1",
-        "completed": true
+        "completed": true,
+        "logo": "./Images/Console/ps5.png",
+        "icon": "./Images/gameIcons/RatchetClank1.png"
     },
     {
         "taskText": "Killzone",
         "id": "2",
-        "completed": false
+        "completed": false,
+        "logo": "./Images/Console/ps3.png",
+        "icon": "./Images/gameIcons/Killzone3.png"
     },
     {
         "taskText": "Infamous",
         "id": "3",
-        "completed": false
+        "completed": false,
+        "logo": "./Images/Console/ps3.png",
+        "icon": "./Images/gameIcons/Infamous2.png"
     },
     {
         "taskText": "Dead Space",
         "id": "4",
-        "completed": false
+        "completed": false,
+        "logo": "./Images/Console/ps3.png",
+        "icon": "./Images/gameIcons/DeadSpace1.png"
     },
     {
         "taskText": "Mass Effect",
         "id": "5",
-        "completed": false
+        "completed": false,
+        "logo": "./Images/Console/ps5.png",
+        "icon": "./Images/gameIcons/MassEffect1.png"
     }
 ]

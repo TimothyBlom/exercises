@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import sliderImg1 from "../images/addButton.png"
+import checkBox from "../images/checkBox.png"
 
 const Task = (props) => {
     const [taskIsChecked, setTaskIsChacked] = useState(props.completed);
@@ -11,10 +11,10 @@ const Task = (props) => {
     return (
         <div className="taskItem">
 
-            <img className="taskPlatform" src={sliderImg1} />
-            <img className="taskLogo" src={sliderImg1} />
+            <img className="taskPlatform" src={props.console} />
+            <img className="taskLogo" src={props.icon} />
             <input type="text" className="taskNameInput" placeholder={props.taskText}></input>
-            <img className="taskBtn" src={sliderImg1} id={taskIsChecked ? "taskCompleted" : ""} onClick={taskComplete}/>
+            <img className="taskBtn" src={checkBox} id={taskIsChecked ? "taskCompleted" : ""} onClick={taskComplete}/>
             {/* <img className="taskLogo" src={sliderImg1} /> */}
 
         </div>

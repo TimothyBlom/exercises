@@ -41,6 +41,8 @@ const ToDoList = () => {
                     <Task 
                     completed={item.completed}
                     taskText={item.taskText}
+                    console={item.logo}
+                    icon={item.icon}
                     />
 
                 ))}
