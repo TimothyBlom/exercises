@@ -29,7 +29,9 @@ const ToDoList = () => {
     return (
         <div id='toDoList'>
 
-            <p className="pageHeaderText">To Do List using a local API <br /> (How the hell do I post data?!?)</p>
+            <p className="pageHeaderText">Updating existing tasks on a to do list using a local API 
+              <br /> (How the hell do I post data?!?)
+            </p>
 
             <div className="tasksContainer">
 
