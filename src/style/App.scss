@@ -24,6 +24,16 @@
   @include popDiv;
 }
 
+.pageParaText {
+  text-align: center;
+  width: 60%;
+  margin: 100px 20%;
+  border-radius: 20px;
+  padding: 15px;
+  font-size: 20px;
+  @include popDiv;
+}
+
 .header {
   background-color: rgb(16, 19, 58);
   padding: 10px;
