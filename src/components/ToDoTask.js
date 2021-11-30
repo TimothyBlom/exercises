@@ -15,7 +15,6 @@ const Task = (props) => {
             <img className="taskLogo" src={props.icon} />
             <input type="text" className="taskNameInput" placeholder={props.taskText}></input>
             <img className="taskBtn" src={checkBox} id={taskIsChecked ? "taskCompleted" : ""} onClick={taskComplete}/>
-            {/* <img className="taskLogo" src={sliderImg1} /> */}
 
         </div>
     )

@@ -1,9 +1,15 @@
 import React, {useEffect, useState} from 'react';
 import axios from "axios"
 import Task from "../components/ToDoTask"
+import checkBox from "../images/checkBox.png"
 
 const ToDoList = () => {
     const [games, setGames] = useState([]);
+    // const [taskIsChecked, setTaskIsChacked] = useState(games.item.completed);
+
+    // const taskComplete = () => {
+    //     setTaskIsChacked(!taskIsChecked);
+    //   }
 
     useEffect(() => {
         const getToDoApi = async () => {
@@ -23,8 +29,8 @@ const ToDoList = () => {
       };
 
       const gamesStatus = () => {
-        console.log(games, "current status")
-      };
+        console.log(games, "current status");
+      }
 
     return (
         <div id='toDoList'>
@@ -40,12 +46,12 @@ const ToDoList = () => {
 
             {games.map(item => (
 
-              <Task 
-                completed={item.completed}
-                taskText={item.taskText}
-                console={item.logo}
-                icon={item.icon}
-              />
+              <div className="taskItem">
+
+                <input type="text" className="taskNameInput" placeholder={item.taskText}></input>
+                {/* <img className="taskBtn" src={checkBox} id={taskIsChecked ? "taskCompleted" : ""} onClick={taskComplete}/> */}
+
+              </div>
 
             ))}
         

@@ -9,6 +9,7 @@ import SliderList from "./pages/SliderList";
 import Codex from "./pages/Codex";
 import ToDoList1 from "./pages/ToDoList1";
 import ToDoList2 from "./pages/ToDoList2";
+import ToDoList3 from "./pages/ToDoList3";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Route exact path='/Codex' component={Codex}/>
         <Route exact path='/ToDoList1' component={ToDoList1}/>
         <Route exact path='/ToDoList2' component={ToDoList2}/>
+        <Route exact path='/ToDoList3' component={ToDoList3}/>
       </BrowserRouter>
 
     </div>

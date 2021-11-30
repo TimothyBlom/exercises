@@ -23,6 +23,8 @@ const Header = () => {
             <Link className='routingButtons' to='/ToDoList1'>Update To Do List</Link>
 
             <Link className='routingButtons' to='/ToDoList2'>Add taks to To Do List</Link>
+
+            <Link className='routingButtons' to='/ToDoList3'>Simple To Do List</Link>
                                
         </div>
     )

@@ -13,6 +13,11 @@
     }
 }
 
+.addButton {
+    height: 100px;
+    margin-left: 50%
+}
+
 .tasksContainer {
     @include popDiv;
     width: 80%;

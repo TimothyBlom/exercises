@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import axios from "axios"
 import Task from "../components/ToDoTask"
+import addButton from "../images/addButton.png"
 
 const ToDoList = () => {
     const [games, setGames] = useState([]);
@@ -46,6 +47,8 @@ const ToDoList = () => {
                     />
 
                 ))}
+
+                <img className="addButton" src={addButton} />
         
             </div>
                                
