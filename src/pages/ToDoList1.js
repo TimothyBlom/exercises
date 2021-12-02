@@ -17,7 +17,7 @@ const ToDoList = () => {
       }, [] );
 
       const postToDoApi = async () => {
-        const res = await axios.post("./ToDoList.json")
+        const res = await axios.post("./ToDoList.json", {games: parseInt(games)})
           setGames(res.data);
           console.log(res.data, "post");
       };
