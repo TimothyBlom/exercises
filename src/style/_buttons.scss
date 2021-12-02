@@ -1,0 +1,43 @@
+.btnWallpaper {
+    height: 100%;
+    transform: scale(2.5);
+    transition: transform .5s ease;
+    &:hover {
+        transform: scale(1);
+    }
+}
+
+.btnWallpaperContainer {
+    height: 400px;
+    width: 300px;
+    overflow: hidden;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgZoomedOut {
+    height: 100%;
+    transform: scale(2.5);
+    transition: transform .5s ease;
+}
+
+#imgZoomedIn {
+    transform: scale(1);
+}
+
+.logoZoomedIn {
+    width: 200px;
+    transition: transform .5s ease, opacity .5s ease;
+    position: absolute;
+    z-index: 1;
+    margin-top: 275px;
+    margin-left: 50px;
+    opacity: 0.8;
+}
+
+#logoZoomedOut {
+    transform: scale(1.5);
+    filter: drop-shadow(5px 5px 5px #222);
+    opacity: 1;
+}
