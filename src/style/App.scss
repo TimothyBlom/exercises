@@ -39,30 +39,40 @@
   width: 100%;
 }
 
-.header {
+.headerContainer {
   background-color: rgb(16, 19, 58);
-  padding: 10px;
+}
+
+.header {
+  margin-left: 350px;
+  margin-right: 100px;
+  margin-top: -20px;
+}
+
+.headerSwiper {
+  height: 70px;
 }
 
 .headerLogo {
-  height: 75px;
+  height: 70px;
   float: left;
   margin: 0 -120px 0 -30px;
   padding: 0 20px 0 30px;
-  background-color: rgb(16, 19, 58);
   border-radius: 20px;
 }
 
 .routingButtons {
   color: white;
   font-weight: bolder;
-  margin: 50px;
   text-decoration: none;
-  font-size: large;
+  font-size: larger;
+}
+
+.routingButtonsContainer {
+  margin-top: 20px;
 }
 
 .homeButton {
-  font-size: x-large;
   margin-left: 100px;
 }
 

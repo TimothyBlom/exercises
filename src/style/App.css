@@ -343,6 +343,71 @@
   background-color: white;
 }
 
+.btnWallpaper {
+  height: 100%;
+  -webkit-transform: scale(2.5);
+          transform: scale(2.5);
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+}
+
+.btnWallpaper:hover {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.btnWallpaperContainer {
+  height: 400px;
+  width: 300px;
+  overflow: hidden;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wallpaperContainerUI {
+  width: 790px;
+  margin-bottom: -427px;
+}
+
+.imgZoomedOut {
+  height: 100%;
+  -webkit-transform: scale(2.5);
+          transform: scale(2.5);
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  transition: transform .5s ease, -webkit-transform .5s ease;
+}
+
+#imgZoomedIn {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+.logoZoomedIn {
+  width: 200px;
+  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
+  transition: opacity .5s ease, -webkit-transform .5s ease;
+  transition: transform .5s ease, opacity .5s ease;
+  transition: transform .5s ease, opacity .5s ease, -webkit-transform .5s ease;
+  position: absolute;
+  z-index: 1;
+  margin-top: 275px;
+  margin-left: 50px;
+  opacity: 0.8;
+}
+
+#logoZoomedOut {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+          filter: drop-shadow(5px 5px 5px #222);
+  opacity: 1;
+}
+
 .App {
   background-image: -webkit-gradient(linear, left top, right top, from(#6e6e6e), to(#3d3d3d));
   background-image: linear-gradient(to right, #6e6e6e, #3d3d3d);
@@ -382,30 +447,40 @@
   width: 100%;
 }
 
-.header {
+.headerContainer {
   background-color: #10133a;
-  padding: 10px;
+}
+
+.header {
+  margin-left: 350px;
+  margin-right: 100px;
+  margin-top: -20px;
+}
+
+.headerSwiper {
+  height: 70px;
 }
 
 .headerLogo {
-  height: 75px;
+  height: 70px;
   float: left;
   margin: 0 -120px 0 -30px;
   padding: 0 20px 0 30px;
-  background-color: #10133a;
   border-radius: 20px;
 }
 
 .routingButtons {
   color: white;
   font-weight: bolder;
-  margin: 50px;
   text-decoration: none;
-  font-size: large;
+  font-size: larger;
+}
+
+.routingButtonsContainer {
+  margin-top: 20px;
 }
 
 .homeButton {
-  font-size: x-large;
   margin-left: 100px;
 }
 
