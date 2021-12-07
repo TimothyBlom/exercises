@@ -46,3 +46,72 @@
     filter: drop-shadow(5px 5px 5px #222);
     opacity: 1;
 }
+
+.wallpaperLeftUI {
+    position: absolute;
+    height: 434px;
+    margin-top: 10px;
+    margin-left: 221px;
+    transition: all .5s ease;
+}
+
+#wallpaperLeftOut {
+    margin-left: -185px;
+}
+
+.wallpaperRightUI {
+    position: absolute;
+    height: 434px;
+    margin-top: 10px;
+    margin-left: 510px;
+    transform: scaleX(-1);
+    transition: all .5s ease;
+}
+
+#wallpaperRightOut {
+    margin-left: 917px;
+}
+
+.wallpaperTopUI {
+    position: absolute;
+    transform: scaleY(-1);
+    transition: all .5s ease;
+    width: 310px;
+    margin-left: 240px;
+    margin-top: 5px;
+}
+
+.wallpaperTopUI2 {
+    position: absolute;
+    transform: scaleY(-1);
+    transition: all .5s ease;
+    transition-delay: .3s;
+    width: 310px;
+    margin-left: 240px;
+    margin-top: 5px;
+}
+
+#wallpaperTopOut {
+    margin-top: -205px;
+}
+
+.wallpaperBottomUI {
+    position: absolute;
+    transition: all .5s ease;
+    width: 310px;
+    margin-left: 240px;
+    margin-top: 398px;
+}
+
+.wallpaperBottomUI2 {
+    position: absolute;
+    transition: all .5s ease;
+    transition-delay: .3s;
+    width: 310px;
+    margin-left: 240px;
+    margin-top: 398px;
+}
+
+#wallpaperBottomOut {
+    margin-top: 598px;
+}

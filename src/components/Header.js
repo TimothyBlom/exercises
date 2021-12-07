@@ -30,31 +30,31 @@ const Header = () => {
                     </SwiperSlide>
 
                     <SwiperSlide className='routingButtonsContainer'>
-                        <Link className='routingButtons' to='/ImgUploader'>Image_Uploader</Link>
+                        <Link className='routingButtons' to='/ImgUploader'>Image Uploader</Link>
                     </SwiperSlide>
 
                     <SwiperSlide className='routingButtonsContainer'>
-                        <Link className='routingButtons' to='/ApiList'>API_Lists</Link>
+                        <Link className='routingButtons' to='/ApiList'>API Lists</Link>
                     </SwiperSlide>
 
                     <SwiperSlide className='routingButtonsContainer'>
-                        <Link className='routingButtons' to='/SliderList'>Slider_lists</Link>
+                        <Link className='routingButtons' to='/SliderList'>Slider lists</Link>
                     </SwiperSlide>
 
                     <SwiperSlide className='routingButtonsContainer'>
-                        <Link className='routingButtons' to='/Codex'>Lore_Codex</Link>
+                        <Link className='routingButtons' to='/Codex'>Lore Codex</Link>
                     </SwiperSlide>
 
                     <SwiperSlide className='routingButtonsContainer'>
-                        <Link className='routingButtons' to='/ToDoList1'>Update_To_Do_List</Link>
+                        <Link className='routingButtons' to='/ToDoList1'>Update To Do List</Link>
                     </SwiperSlide>
 
                     <SwiperSlide className='routingButtonsContainer'>
-                        <Link className='routingButtons' to='/ToDoList2'>Add_to_To_Do_List</Link>
+                        <Link className='routingButtons' to='/ToDoList2'>Add to To Do List</Link>
                     </SwiperSlide>
 
                     <SwiperSlide className='routingButtonsContainer'>
-                        <Link className='routingButtons' to='/ToDoList3'>Simple_To_Do_List</Link>
+                        <Link className='routingButtons' to='/ToDoList3'>Simple To Do List</Link>
                     </SwiperSlide>
 
                     <SwiperSlide className='routingButtonsContainer'>
